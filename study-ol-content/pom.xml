@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.study</groupId>
+        <artifactId>study-ol-project</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../../study-ol-project</relativePath>
+    </parent>
+    <artifactId>study-ol-content</artifactId>
+    <version>0.0.1</version>
+    <name>study-ol-content</name>
+    <description>study-ol-content</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>study-ol-content-api</module>
+        <module>study-ol-content-model</module>
+        <module>study-ol-content-service</module>
+    </modules>
+</project>
